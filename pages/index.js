@@ -22,7 +22,12 @@ export default function Home() {
             src="/nextjs.png"
             alt="next js"
             className="cursor-pointer"
-            onClick={() => window.open("https://google.com", "_blank")}
+            onClick={() =>
+              window.open(
+                "https://techsagar9495-react-portfolio.netlify.app/",
+                "_blank"
+              )
+            }
           />
         </div>
         <div
@@ -33,7 +38,12 @@ export default function Home() {
             src="/reactjs.png"
             alt="react js"
             className="cursor-pointer"
-            onClick={() => window.open("https://google.com", "_blank")}
+            onClick={() =>
+              window.open(
+                "https://techsagar9495-nextjs-portfolio.netlify.app/",
+                "_blank"
+              )
+            }
           />
         </div>
       </div>
